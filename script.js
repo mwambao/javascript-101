@@ -10,3 +10,12 @@ function greet(name) {
 //Here we call the function
 var greeting = greet("World");
 console.log(greeting)
+
+//conditions
+
+function isEven(num){
+    return num % 2 == 0;
+}
+
+console.log(isEven(4)); //This return true
+console.log(isEven(7))
